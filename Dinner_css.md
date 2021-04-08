@@ -42,4 +42,3 @@ One of the methods that impressed me a lot was :nth-of-type(). In the bracket, y
 mathematical relationship of your selected objects.(Pretty cool!). Another useful thing was that `*` could mean selecting everything.
 
  <img src = "https://github.com/cathymonkey/Unit_4/blob/main/Images/dinerCSS.png" width = "200" height = "600" >
-
