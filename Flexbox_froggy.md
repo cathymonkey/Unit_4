@@ -51,16 +51,20 @@
 24.flex-flow:column-reverse wrap-reverse; align-content:space-between; justify-content:center;
 
 
+**Notes**
 
-align-items
-flex-start: Items align to the top of the container.
-flex-end: Items align to the bottom of the container.
-center: Items align at the vertical center of the container.
-baseline: Items display at the baseline of the container.
-stretch: Items are stretched to fit the container.
+`align-items`
+`flex-start`: Items align to the top of the container.
+`flex-end`: Items align to the bottom of the container.
+`center`: Items align at the vertical center of the container.
+`baseline`: Items display at the baseline of the container.
+`stretch`: Items are stretched to fit the container.
 
-flex-direction:
-row: Items are placed the same as the text direction.
-row-reverse: Items are placed opposite to the text direction.
-column: Items are placed top to bottom.
-column-reverse: Items are placed bottom to top.
+`flex-direction`
+`row`: Items are placed the same as the text direction.
+`row-reverse`: Items are placed opposite to the text direction.
+`column`: Items are placed top to bottom.
+`column-reverse`: Items are placed bottom to top.
+
+**Reflection**
+
