@@ -35,6 +35,7 @@
 32. bento[for*="obb"]
 
 **Reflection**
+
 Through this very fun and helpful game, I first learnt about the class, id and attributes in HTML. Then I learnt how to select elements by using different methods. 
 One of the methods that impressed me a lot was :nth-of-type(). In the bracket, you can fill in algebraic expressions or mathematical terms depending on the 
 mathematical relationship of your selected objects.(Pretty cool!). Another useful thing was that `*` could mean selecting everything.
