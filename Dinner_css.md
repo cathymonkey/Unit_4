@@ -10,7 +10,7 @@
 07. orange.small
 08. bento orange.small
 09. plate, bento
-10.  *
+10. /*
 11. plate *
 12. plate + apple
 13. bento ~ pickle
@@ -27,9 +27,9 @@
 24. orange:last-of-type, apple:last-of-type
 25. bento:empty
 26. apple:not(.small)
-27. * [for]
+27. *[for]
 28. plate[for]
 29. bento[for="Vitaly"]
-30. * [for^="Sa"]
-31. * [for$="ato"]
+30. *[for^="Sa"]
+31. *[for$="ato"]
 32. bento[for*="obb"]
