@@ -53,7 +53,7 @@
 
 **Notes**
 
-`align-items`
+#### `align-items`####
 
 `flex-start`: Items align to the top of the container.
 
@@ -65,7 +65,7 @@
 
 `stretch`: Items are stretched to fit the container.
 
-`flex-direction`
+#### `flex-direction`####
 
 `row`: Items are placed the same as the text direction.
 
