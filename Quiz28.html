@@ -1,1 +1,82 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel = "stylesheet" href = "Quiz28.css">
+    <title>Quiz 28</title>
+</head>
+<body>
+    <div>
+        <h1>Quiz 28</h1>
+        <h2>Question:</h2>
+        <h3>Mirrored time number is a number of two digits x and y which if we write like xy:xy or xy:yx we get a valid time in hh:mm.
+            Your task is to print the valid combinations separated by spaces. If no such combination exists print 'NONE'.</h3>
+        <h2>Solution:</h2>
+        <h3>class solution():
+            def __init__(self,n):
+            self.n: int = n
+            def mirroredtime(self):
+            n = self.n
+            if len(str(n)) == 2: # two-digit number
+            x = int(str(n)[0])
+            y = int(str(n)[1])
+
+            if 1 <= x < 3 and 0 <= y < 4:
+
+            if int(x) == int(y):
+            print(f"{x}{y}:{y}{x}")
+
+            else:
+            print(f"{x}{y}:{y}{x}",f"{x}{y}:{x}{y}")
+            else:
+            print(None)
+
+            else:
+            print(None)
+
+            solution(n=11).mirroredtime()
+            solution(n=12).mirroredtime()
+            solution(n=99).mirroredtime()
+            solution(n=9).mirroredtime()
+
+
+
+
+
+        </h3>
+
+        <div class = "flowchart"><h4>Flow chart:</h4><img src=" flowChart.png" id="chart"></div>
+        <div class = "code"><h4>Code:</h4><img src="code.png" id ="code"></div>
+
+    </div>
+
+
+</body>
+</html>
+
+
+
+#chart{
+    alignment:center;
+    max-width:450px;
+    max-height:630px;
+}
+h1{
+    align-content: center;
+}
+
+.flowchart{
+    display: inline-block;
+
+
+}
+
+.code{
+    display:inline-block;
+}
+#code{
+    alignment:center;
+    max-width:450px;
+    max-height:600px;
+}
